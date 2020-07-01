@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    background-image:url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+        
+}
+.header .into{
+    width: 50%;
+    float: left;
+     position: relative;
+     left: 150px;
+    top: 90px;
+    padding: 20px;
+    
+}
+.into h3{
+    font-weight: 550;
+}
+.into h1{
+    color: #EC4C7A;
+    font-size: 35px;
+    
+}
+.btwn{
+    display: inline-block;
+    text-decoration: none;
+    background:linear-gradient(#EC4E8B,#ad0646);
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 10px;
+     
+}
+.btwn:hover{
+     background: #16d39a;
+     color: #333;
+}
+.into p{
+    font-size: 12px;
+}
+.header .profile{
+    position: relative;
+    width: 50%;
+    float: left;
+    left: 0px;
+}
+.header .profile img{
+    width: 100%;
+    padding: 30px;
+}
+.header .profile::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.biography{
+     width: 100%;
+    height: 700px;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size:  contain;
+     position: relative;
+    
+}
+.biography .image{
+    position: relative;
+    right: -20px;
+    width: 50%;
+    float: left;
+}
+.biography .image img{
+      
+    width: 80%;
+    padding: 40px;
+    text-align: right;
+border-radius: 50%;
+}
+
+.biography .description{
+    position: relative;
+    width: 50%;
+    float: left;
+    top: 60px;
+    padding: 40px;
+left: -50px;    
+     
+}
+.biography .description h2{
+    padding: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.biography .description p{
+    font-size: 14px;
+}
