@@ -1,106 +1,256 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
-      box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.header{
+.header {
     position: relative;
     width: 100%;
-    background-image:url("images/header-bg.png");
+    background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 500px;
-        
+
 }
-.header .into{
+
+.header .into {
     width: 50%;
     float: left;
-     position: relative;
-     left: 150px;
+    position: relative;
+    left: 150px;
     top: 90px;
     padding: 20px;
-    
+
 }
-.into h3{
+
+.into h3 {
     font-weight: 550;
 }
-.into h1{
+
+.into h1 {
     color: #EC4C7A;
     font-size: 35px;
-    
+
 }
-.btwn{
+
+.btwn {
     display: inline-block;
     text-decoration: none;
-    background:linear-gradient(#EC4E8B,#ad0646);
+    background: linear-gradient(#EC4E8B, #ad0646);
     padding: 10px 15px;
     border-radius: 15px;
     color: #fff;
     margin-top: 10px;
-     
+
 }
-.btwn:hover{
-     background: #16d39a;
-     color: #333;
+
+.btwn:hover {
+    background: #16d39a;
+    color: #333;
 }
-.into p{
+
+.into p {
     font-size: 12px;
 }
-.header .profile{
+
+.header .profile {
     position: relative;
     width: 50%;
     float: left;
     left: 0px;
 }
-.header .profile img{
+
+.header .profile img {
     width: 100%;
     padding: 30px;
 }
-.header .profile::after{
+
+.header .profile::after {
     content: "";
     clear: both;
     display: table;
 }
-.biography{
-     width: 100%;
+
+.biography {
+    width: 100%;
     height: 700px;
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-size:  contain;
-     position: relative;
-    
+    background-size: contain;
+    position: relative;
+
 }
-.biography .image{
+
+.biography .image {
     position: relative;
     right: -20px;
     width: 50%;
     float: left;
 }
-.biography .image img{
-      
+
+.biography .image img {
+
     width: 80%;
     padding: 40px;
     text-align: right;
-border-radius: 50%;
+    border-radius: 50%;
 }
 
-.biography .description{
+.biography .description {
     position: relative;
     width: 50%;
     float: left;
     top: 60px;
     padding: 40px;
-left: -50px;    
-     
+    left: -50px;
+
 }
-.biography .description h2{
+
+.biography .description h2 {
     padding: 10px;
     font-weight: 500;
     letter-spacing: 2px;
 }
-.biography .description p{
+
+.biography .description p {
     font-size: 14px;
+}
+
+.works {
+    width: 100%;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    padding: 20px;
+
+}
+
+.works h1 {
+    text-align: center;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+
+.works .list {
+    width: 30%;
+    float: left;
+    margin: auto;
+
+}
+
+.works .list img {
+    width: 100%;
+    padding: 20px;
+}
+
+
+.contract {
+    width: 100%;
+
+    height: 400px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+#con {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.card {
+    display: block;
+    float: left;
+    width: 32.5%;
+    margin: 3px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: -6px -6px 10px rgb(240, 240, 250, .5),
+        6px 6px 20px rgb(0, 0, 0, .2);
+}
+
+.card:hover {
+    box-shadow: inset -6px -6px 10px rgb(0, 0, 0, .5),
+        inset 6px 6px 20px rgb(255, 255, 255, .2);
+
+}
+
+.card .img-box {
+    text-align: center;
+
+    position: relative;
+}
+
+.img-box img {
+
+    max-width: 120px;
+}
+
+.content {
+
+    text-align: center;
+}
+
+.content h2 {
+    color: #32a3b1;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.footer {
+    width: 100%;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    text-align: center;
+
+}
+
+.footer .client {
+
+    line-height: 2px;
+}
+
+.footer .comment {
+    padding: 10px 40px;
+    color: #333;
+    width: 50%;
+    margin: auto
+}
+
+.mail {
+    background: linear-gradient(#EC5197, #ED4B72);
+    padding: 5px 10px;
+    width: 60%;
+    color: #fff;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.mail a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.right {
+
+     margin-top: 200px;
+padding: 20px;
 }
